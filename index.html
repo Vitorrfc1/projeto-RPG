@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8" , />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Personagens RPG</title>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap" rel="stylesheet" />
+	<link rel="stylesheet" href="./src/css/reset.css">
+	<link rel="stylesheet" href="./src/css/style.css">
+	<link rel="stylesheet" href="./src/css/fundo.css">
+	<link rel="stylesheet" href="./src/css/scrollbar.css">
+</head>
+
+<body id="modo">
+	<header>
+		<a href="https://app.roll20.net/login" target="_blank">
+			<img src="./src/imagens/icone.png" alt="ícone rpg roll20" class="logo" id="sol" />
+		</a>
+		<h1 id="titulo"> Maldição de Morfeu </h1>
+		<button id="botao-alterar-tema" onclick="modoescuro()">
+			<img src="./src/imagens/sol.png" alt="imagem do sol" class="imagem-botao" id="btnmodo" />
+		</button>
+
+	</header>
+	<main>
+		<ul class="listagem-personagem">
+			<li class="cartao-personagem">
+				<div class="informacoes">
+					<a href="#">Amissa ➜</a>
+				</div>
+
+				<img src="./src/imagens/imagens personagens/amissa.jpg" alt="Amissa" class="img" />
+
+				<ul class="classes">
+					<li class="classe lefou">Lefou</li>
+					<li class="classe arcanista">Arcanista</li>
+				</ul>
+
+				<p class="descricao">Amissa era uma criança promissora. Filha de um dos mais importantes negociantes de
+					sua região, ela tinha um futuro digno de princesa à sua frente. Teve a melhor educação que o
+					dinheiro pode pagar, comparecia sempre às melhores festas e estava sempre na presença de pessoas
+					importantes. Amissa teve uma vida de se invejar, até seus 11 anos de idade.</p>
+			</li>
+
+			<li class="cartao-personagem">
+				<div class="informacoes">
+					<a href="https://openai.com/blog/chatgpt" target="_blank">Arwen ➜</a>
+				</div>
+
+				<img src="./src/imagens/imagens personagens/Arwen.jpg" alt="Arwen" class="img" />
+
+				<ul class="classes">
+					<li class="classe elfo">Elfo</li>
+					<li class="classe ladino">Ladino</li>
+				</ul>
+
+				<p class="descricao">Pele negra avermelhada e olhos verdes brilhantes, sua beleza é de longe notável. De
+					fato uma obra de arte para os olhos de quem a vê. Pena que nem todos apreciam sua formosura da
+					maneira que merece. Acaba tendo que despistar os olhares maldosos e dispersar-se entre a multidão de
+					quem a procura por motivos injustos.</p>
+			</li>
+
+			<li class="cartao-personagem">
+				<div class="informacoes">
+					<a href="">Aynee ➜</a>
+				</div>
+
+				<img src="./src/imagens/imagens personagens/aynee.jpg" alt="Aynee" class="img" />
+
+				<ul class="classes">
+					<li class="classe qareen">Qareen</li>
+					<li class="classe bardo">Bardo</li>
+				</ul>
+
+				<p class="descricao">Capturada por humanos quando criança, Aynee foi vendida para um circo onde
+					trabalhou sua vida inteira como palhaça e parte do show de horrores, casada de ser tratada dessa
+					forma, Aynee foge e vai em busca de sua verdadeira família.</p>
+			</li>
+
+			<li class="cartao-personagem">
+				<div class="informacoes">
+					<a href="">Faylen ➜</a>
+				</div>
+
+				<img src="./src/imagens/imagens personagens/Faylen.png" alt="Faylen" class="img" />
+
+				<ul class="classes">
+					<li class="classe osteon">Osteon</li>
+					<li class="classe druida">Druida</li>
+				</ul>
+
+				<p class="descricao">Um osteon elfíco e druida que morreu após mexer com magias fora de seu alcance,
+					apenas para reviver alguém especial. Quando criança, Faylen teve sua vila destruída, fazendo com que
+					ficasse órfão, assim, viveu o resto de sua vida com seu mestre. Desde que sua família morreu, busca
+					um propósito para sua vida.</p>
+			</li>
+
+			<li class="cartao-personagem">
+				<div class="informacoes">
+					<a href="">Herremita ➜</a>
+				</div>
+
+				<img src="./src/imagens/imagens personagens/herremita.jpg" alt="Herremita" class="img" />
+
+				<ul class="classes">
+					<li class="classe trog">Trog</li>
+					<li class="classe bucaneiro">Bucaneiro</li>
+				</ul>
+
+				<p class="descricao">Herremita, mais conhecido entre os piratas e comerciantes como o Trog Sanguinário,
+					fazia parte da tripulação do Capitão Edward Teach, o qual o ensinou tudo que sabe, desde a maestria
+					com a espada, até a pontaria com suas pistolas de pólvora. Após ficar entediado com a mesma rotina
+					no navio, pediu permissão para Teach para sair do navio, e ir atrás de novas aventuras e tesouros
+					com seu companheiro de aventuras Chopper. </p>
+			</li>
+
+			<li class="cartao-personagem">
+				<div class="informacoes">
+					<a href="">Itai ➜</a>
+				</div>
+
+				<img src="./src/imagens/imagens personagens/itai.jpg" alt="Itai" class="img" />
+
+				<ul class="classes">
+					<li class="classe golem">Golem</li>
+					<li class="classe barbaro">Bárbaro</li>
+				</ul>
+
+				<p class="descricao">Guardião do conhecimento medicinal do povo Sílfide entregue aos humanos. Itai
+					perdeu seu propósito depois que a biblioteca subterrânea de Ravni foi invadida e queimada pelo culto
+					de Sszzass. Itai foi deixado para trás depois do ataque, e a biblioteca, esquecida pelos peregrinos
+					que a visitavam. Passou os últimos 60 anos inerte aos eventos do mundo, pois estando preso pelo seu
+					voto de guardião, nada podia fazer a não ser ver o tempo passar dentro das cavernas. Foi Shaylee que
+					lhe encontrou e lhe disse que havia um mundo inteiro fora do único pedaço de terra que conhecia.
+					Desde então sua missão é tornar acessível os conhecimentos que, se não fossem pela sua ação,
+					estariam perdidos para sempre.</p>
+			</li>
+
+			<li class="cartao-personagem">
+				<div class="informacoes">
+					<a href="">Karma ➜</a>
+				</div>
+
+				<img src="./src/imagens/imagens personagens/Karma.jpg" alt="Karma" class="img" />
+
+				<ul class="classes">
+					<li class="classe qareen">Qareen</li>
+					<li class="classe paladino">Paladino</li>
+				</ul>
+
+				<p class="descricao">Karma sempre esteve ali com seus conselhos e seus métodos para acabar com o "mal"
+					quase como um demonio no ombro de Kyros. Karma nasceu no dia em que houve o incidente do mercado e
+					dos elfos, os quais Kyros matou. Naquele dia ele esteve no comando para evitar a morte de Kyros ou
+					algo pior, e mesmo que o odiasse por isso, só está vivo por causa de Karma.</p>
+			</li>
+
+			<li class="cartao-personagem">
+				<div class="informacoes">
+					<a href="">Kyros ➜</a>
+				</div>
+
+				<img src="./src/imagens/imagens personagens/Kyros.jpg" alt="Kyros" class="img" />
+
+				<ul class="classes">
+					<li class="classe qareen">Qareen</li>
+					<li class="classe paladino">Paladino</li>
+				</ul>
+
+				<p class="descricao">Kyros desde que se entende como ser mágico, vaga por florestas ajudando
+					aventureiros perdidos entre outros seres, sempre muito amigáve, simpático e até ingênuo. Um dia foi
+					capturado por ladrões que o venderam no mercado por suas habilidades de realizar desejos, antes que
+					qualquer coisa acontecesse ele conseguiu fugir, mas à que preço... Depois de tantos anos ajudando os
+					outros ele aprendeu a se proteger,. De volta a floresta ele passa a ajudar todos tendo em vista um
+					dia se perdoar pelo o que fez.</p>
+			</li>
+
+			<li class="cartao-personagem">
+				<div class="informacoes">
+					<a href="">Lírio ➜</a>
+				</div>
+
+				<img src="./src/imagens/imagens personagens/lirio.jpg" alt="Lirio" class="img" />
+
+				<ul class="classes">
+					<li class="classe dahllan">Dahllan</li>
+					<li class="classe cavaleiro">Cavaleiro</li>
+				</ul>
+
+				<p class="descricao"> Lírio, um Dahllan adulto, segue a filosofia de Cardan (seu pai e general), de que:
+					"É da capacidade de se conectar com tudo e todos que nasce um herói, porque tudo vira seu, e seu
+					propósito é proteger com sua vida tudo o que tem". Valorizando lealdade acima de tudo, ou ele te
+					valorizará como seu bem mais precioso, ou te tornará uma poça de sangue desprezível. Não é incomum
+					ver pequenas pétalas caírem do seu cabelo quando está de bom humor ou joaninhas o acompanhando em
+					sua montaria.</p>
+			</li>
+
+			<li class="cartao-personagem">
+				<div class="informacoes">
+					<a href="">Rigel ➜</a>
+				</div>
+
+				<img src="./src/imagens/imagens personagens/Rigel.jpg" alt="Rigel" class="img" />
+
+				<ul class="classes">
+					<li class="classe humano">Humano</li>
+					<li class="classe bucaneiro">Bucaneiro</li>
+				</ul>
+
+				<p class="descricao">Rigel Frord um jovem prodígio em armas de fogo. Nasceu de uma família de caçador
+					que vive no meio de uma floresta que ele não sabe o nome. Rigel abandonou sua casa para buscar um
+					propósito para sua vida, assim transformando em um aventureiro para desbravar o mundo em busca desse
+					seu objetivo.</p>
+			</li>
+
+			<li class="cartao-personagem">
+				<div class="informacoes">
+					<a href="">Shaylee ➜</a>
+				</div>
+
+				<img src="./src/imagens/imagens personagens/Shaylee.jpg" alt="Shaylee" class="img" />
+
+				<ul class="classes">
+					<li class="classe silfide">Sílfide</li>
+					<li class="classe arcanista">Arcanista</li>
+				</ul>
+
+				<p class="descricao">Shaylee ou Shay, como prefere ser chamada, é uma Sílfide adolescente de 237 anos de
+					idade. Desde muito cedo admira o Reino Animal, e à algumas décadas, desenvolveu um súbito interesse
+					por anfíbios. Por algum motivo, essa mini bruxa tem repúdio por humanos e demora a desenvolver
+					afinidade com outras criaturas. Fora isso, gosta de vagar por aí sem rumo e à procura de novos
+					lugares e culturas diferentes. </p>
+			</li>
+
+			<li class="cartao-personagem">
+				<div class="informacoes">
+					<a href="">Vidra ➜</a>
+				</div>
+
+				<img src="./src/imagens/imagens personagens/Vidra.jpeg" alt="Vidra" class="img" />
+
+				<ul class="classes">
+					<li class="classe humano">Humano</li>
+					<li class="classe ladino">Ladino</li>
+				</ul>
+
+				<p class="descricao">Com seus 1,66 e 14 anos é fácil passar o papel de cigana frágil, principalmente
+					considerando a magreza da garota e o mundo que vive. Pode ser encontrada tanto em ruas quanto em
+					tavernas, “dançando” no meio da plateia enquanto os bens de valor dos telespectadores somem
+					misteriosamente como se evaporassem. Mãos leves, tanto para adagas quanto para truques cativantes.
+				</p>
+			</li>
+
+			<li class="cartao-personagem">
+				<div class="informacoes">
+					<a href="">Zara ➜</a>
+				</div>
+
+				<img src="./src/imagens/imagens personagens/Zara.png" alt="Zara" class="img" />
+
+				<ul class="classes">
+					<li class="classe qareen">Qareen</li>
+					<li class="classe bardo">Bardo</li>
+				</ul>
+
+				<p class="descricao">Zara cresceu num vilarejo predominantemente de humanos, então, enquanto cantava nas
+					ruas, casas e palacetes, viu gente nascendo, crescendo e morrendo, indo e vindo. O vilarejo é o seu
+					lar, mas a tempestade rubra mudou as coisas em todos os lugares e não vai demorar a destruir seu lar
+					também. Dizendo com um sorriso debochado que isso não significa realmente nada, porque "a arte e a
+					vida precisam de drama e tragédias para continuar", Zara, a Sortuda, quer ir embora na primeira
+					oportunidade que aparecer, atrás de uma boa história para contar. Ah, não elogie a tatuagem mágica,
+					ela vai querer te mostrar o resto.</p>
+			</li>
+
+			<li class="cartao-personagem">
+				<div class="informacoes">
+					<a href="">Ziggs ➜</a>
+				</div>
+
+				<img src="./src/imagens/imagens personagens/ziggs.jpg" alt="Ziggs" class="img" />
+
+				<ul class="classes">
+					<li class="classe goblin">Goblin</li>
+					<li class="classe inventor">Inventor</li>
+				</ul>
+
+				<p class="descricao">Ziggs o Caçador de caçadores como é conhecido por onde passou, segue sua jornada em
+					direção ao distrito de Veres. Tendo obtido a informação que um jovem caçador estaria indo para
+					aquela cidade. Para cumprir o seu objetivo e o acordo que fez com a entidade conhecida por [...].
+					Para que ele consiga vingar o seu querido [...]. É assim tentar superar o que aconteceu naquele dia
+					fatídico [...].</p>
+			</li>
+
+		</ul>
+	</main>
+	<footer>
+		<p class="rodape">"Nas terras imersas na bruma da escuridão, onde as almas corajosas se erguem como brasas
+			ardentes em meio às trevas, os corações intrépidos se entrelaçam com a luz da esperança, desafiando o
+			destino e forjando um caminho de honra e redenção, enquanto os deuses observam com olhos ancestrais a dança
+			cósmica dos heróis em busca de sua própria essência, testemunhando o surgimento de lendas eternas que
+			ecoarão além dos véus do tempo."</p>
+	</footer>
+
+	<script src="./src/js/script.js"></script>
+</body>
+
+</html>

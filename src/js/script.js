@@ -1,0 +1,13 @@
+function modoescuro()
+{
+    if (document.getElementById('modo').className == 'modo-escuro'){
+        document.getElementById('modo').className = ''
+        document.getElementById('btnmodo').src = './src/imagens/sol.png'
+    }else{
+        document.getElementById('modo').className = 'modo-escuro';
+        document.getElementById('btnmodo').src = './src/imagens/lua.png'
+    }
+}
+
+
+

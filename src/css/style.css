@@ -1,0 +1,245 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+    background-color: black;
+    color: #333333;
+}
+
+body.modo-escuro{
+    background-image: url(../imagens/outrofundo.jpg);
+    background-color: black;
+    color: #f5f5f5;
+}
+
+#titulo{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 8px;
+}
+
+.modo-escuro #titulo{
+    color: white;
+}
+
+header{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+}
+
+.modo-escuro header{
+    background-color: black;
+}
+
+header .logo,
+header .imagem-botao{
+    width: 50px;
+    transition: 0.2s ease-in-out;
+}
+
+header #botao-alterar-tema{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+header .logo:hover,
+header .imagem-botao:hover{
+    transform: scale(1.10);
+    cursor: pointer;
+}
+
+main{
+    padding: 25px;
+}
+
+main .listagem-personagem{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+main .cartao-personagem{
+    background-image: radial-gradient(circle at 50% -20.71%, #ffffff 0, #f3ffff 25%, #d7ffff 50%, #baedef 75%, #a2dee3 100%);
+    width: 300px;
+    max-height: 450px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    transition: ease-in-out;
+}
+
+.modo-escuro .cartao-personagem{
+    background-image: linear-gradient(150deg, #012529 0, #052022 10%, #061b1b 20%, #051514 30%, #030d0b 40%, #000000 50%, #000000 60%, #000000 70%, #000000 80%, #000000 90%, #000000 100%);
+}
+
+.modo-escuro .cartao-personagem .informacoes a{
+    color: white;
+}
+
+main .cartao-personagem .informacoes{
+    display: flex;
+    justify-content: space-between;
+    border: 0px solid #333333;
+    border-radius: 10px;
+}
+
+main .cartao-personagem .informacoes a{
+    padding: 5px;
+    text-transform: uppercase;
+    font-size: 25px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    color: black;
+    text-decoration: none;
+}
+
+main .cartao-personagem .informacoes a:hover{
+    transform: scale(1.10);
+    transition: 0.2s ease-in-out;
+}
+
+main .cartao-personagem .img{
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+main .cartao-personagem .classes{
+    display: flex;
+    gap: 15px;
+}
+
+main .cartao-personagem .classe{
+    padding: 8px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.lefou{
+    background-color: #d62a2a;
+}
+
+.arcanista{
+    background-color: #67b9dffb;
+}
+
+.elfo{
+    background-color: #61dc2c;
+}
+
+.ladino{
+    background-color: #b5b5b5;
+}
+
+.trog{
+    background-color: #1a8212;
+}
+
+.bucaneiro{
+    background-color: #a1764f;
+}
+
+.golem{
+    background-color: #a09257;
+}
+
+.barbaro{
+    background-color: #c67834;
+}
+
+.dahllan{
+    background-color: #b3bff9;
+}
+
+.cavaleiro{
+    background-color: #475fc9;
+}
+
+.humano{
+    background-color: #c3a2bb;
+}
+
+.goblin{
+    background-color: #33b75f;
+}
+
+.inventor{
+    background-color: #735d16;
+}
+
+.silfide{
+    background-color: #da5dc9;
+}
+
+.qareen{
+    background-color: #c63f58;
+}
+
+.paladino{
+    background-color: #887923;
+}
+
+.bardo{
+    background-color: #a161c7;
+}
+
+.osteon{
+    background-color: #8f93a8;
+}
+
+.druida{
+    background-color: #6da67f;
+}
+
+
+
+
+main .descricao{
+    max-height: 150px;
+    overflow-y: scroll;
+    font-size: 14px;
+    padding-right: 10px;
+    padding-top: 4px;
+}
+
+#btnmodo {
+    transition: 0.2s ease-in-out;
+}
+
+
+#seta{
+    padding-top: 5px;
+}
+
+footer{
+    background-color: black;
+    height: 100px;
+    padding: 15px;
+}
+
+footer .rodape{
+    font-size: 13px;
+    color: white;
+    padding: 0;
+    margin: 3px;
+    text-align: center;
+    margin-top: 1px;
+    margin-bottom: 12px;
+}
+
+main p {
+    text-indent: 5px;
+    font-style: italic;
+    text-align: center;
+    transition: ease-in-out;
+}
+

@@ -1,0 +1,7 @@
+
+
+body {
+    background-image: url(../imagens/fundo.png);
+    background-size: cover; /* para redimensionar a imagem de acordo com a tela */
+    background-repeat: no-repeat; /* para evitar a repetição da imagem */
+  }
