@@ -14,7 +14,7 @@ body.modo-escuro{
 #titulo{
     color: rgb(0, 0, 0);
     text-align: center;
-    margin-top: 8px;
+    margin-top: 11px;
     font-size: 25px;
 }
 
@@ -214,6 +214,7 @@ main .descricao{
 
 #btnmodo {
     transition: 0.2s ease-in-out;
+    height: 45px;
 }
 
 
@@ -242,5 +243,9 @@ main p {
     font-style: italic;
     text-align: center;
     transition: ease-in-out;
+}
+
+header .logo{
+    padding-top: 5px;
 }
 
